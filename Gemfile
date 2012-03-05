@@ -1,0 +1,18 @@
+source :rubygems
+gem 'sinatra'
+gem 'activesupport'
+gem 'rufus-scheduler'
+gem 'eventmachine'
+gem 'blather'
+gem 'oauth'
+gem 'haml'
+gem 'mongo'
+gem 'bson_ext'
+gem 'xml-simple'
+gem 'dropbox'
+gem 'rdropbox'
+gem 'nokogiri'
+gem 'mechanize'
+gem 'tmail'
+gem 'pony'
+

@@ -1,0 +1,9 @@
+!!!
+%html
+  %head
+    %title DropBox On SMS
+    %body
+      %h1 Welcome
+      %form{:action => "authenticate", :method => "get" }
+        %input{:type=>"hidden", :value => @dropbox_session, :name=> "session"}
+        %input{:type => "submit", :value => "Start Accessing Dropbox on SMS"}

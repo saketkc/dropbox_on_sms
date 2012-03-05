@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title DropBox On SMS
+    %body
+      %h1 Enter your Mobile Number
+      %form{:action => "add_number", :method => "get" }
+        %input{:type => "hidden" , :value=> @user_id.to_s , :name => "uid"}
+          %input{:type => "text", :value=> @number, :name => "number"}
+            %input{:type => "submit", :value => "Start Accessing Dropbox on SMS"}
+
